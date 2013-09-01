@@ -1,0 +1,61 @@
+/* custom CSS doc 
+By Arka Ganguli */
+#banner{
+	background-color: orange !important;
+	color:black !important;
+	font-size: 12px !important;
+	padding:8px 0 !important;
+}
+body {
+  	margin: 0 20% !important;
+  	/* bg from www.colorzilla.com*/
+  	background: rgb(179,220,237) !important; /* Old browsers */
+	background: -moz-linear-gradient(left,  rgba(179,220,237,1) 0%, rgba(41,184,229,1) 50%, rgba(188,224,238,1) 100%) !important; /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(179,220,237,1)), color-stop(50%,rgba(41,184,229,1)), color-stop(100%,rgba(188,224,238,1))) !important; /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(left,  rgba(179,220,237,1) 0%,rgba(41,184,229,1) 50%,rgba(188,224,238,1) 100%) !important; /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(left,  rgba(179,220,237,1) 0%,rgba(41,184,229,1) 50%,rgba(188,224,238,1) 100%) !important; /* Opera 11.10+ */
+	background: -ms-linear-gradient(left,  rgba(179,220,237,1) 0%,rgba(41,184,229,1) 50%,rgba(188,224,238,1) 100%) !important; /* IE10+ */
+	background: linear-gradient(to right,  rgba(179,220,237,1) 0%,rgba(41,184,229,1) 50%,rgba(188,224,238,1) 100%) !important; /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b3dced', endColorstr='#bce0ee',GradientType=1 ) !important; /* IE6-9 */
+	ent( startColorstr='#b4e391', endColorstr='#b4e391',GradientType=0 ); /* IE6-9 */
+}
+
+.navbar-brand{
+	font-size: 35px !important;
+	font-weight: bold !important;
+}
+
+.navbar-text{
+	font-size: 15px;
+}
+
+.carousel{
+	margin-top: 25px;
+	margin-bottom: 10px;
+}
+
+.jumbotron h1{
+	margin-bottom: 20px !important;
+}
+/* method from www.bradsknutson.com, modified by Arka Ganguli(me)
+
+.social-roll {
+	background-image: url('github.png');
+	float:right;
+	margin-right: 67%;
+	border-radius: 50%;
+	-webkit-transition: all ease 0.5s;
+	-moz-transition: all ease 0.5s;
+	-o-transition: all ease 0.5s;
+	-ms-transition: all ease 0.5s;
+	transition: all ease 0.5s;
+}
+.social-roll:hover {
+	background-image: url('github.png');
+	box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.8);
+	-webkit-transform:rotate(360deg);
+	-moz-transform:rotate(360deg);
+	-o-transform:rotate(360deg);
+	-ms-transform:rotate(360deg);
+	transform:rotate(360deg);
+} */

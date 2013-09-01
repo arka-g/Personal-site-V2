@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Arka Ganguli</title>
+		<meta name = "viewport" content = "width=device-width, initial-scale = 1.0">
+		<link href = "css/bootstrap.min.css" rel = "stylesheet" type = "text/css">
+		<link href = "css/style.css" rel = "stylesheet" type = "text/css">
+		<link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0-rc2/css/bootstrap-glyphicons.css" rel="stylesheet">
+		<link rel="icon" href="favicon.ico" type="image/x-icon">
+
+		<!-- Google analytics script-->
+	<script>
+		  
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		ga('create', 'UA-42125523-1', 'arkaganguli.com');
+		ga('send', 'pageview');
+
+	</script>
+		
+		<!--end of script-->
+
+	</head>
+	<body>
+		<div class = "navbar navbar-default navbar-fixed-top">
+			<div class = "container">
+				<a href="index.html" class = "navbar-brand">*SITE UNDER CONSTRUCTION*</a>
+				
+				<button class = "navbar-toggle" data-toggle="collapse" data-target = ".navHeaderCollapse">
+					<span class = "icon-bar"></span>
+					<span class = "icon-bar"></span>
+					<span class = "icon-bar"></span>
+				</button>
+
+				<div class = "collapse navbar-collapse navHeaderCollapse">
+					<ul class = "nav navbar-nav navbar-right" id = "nav">
+						<li class = "active"><a href="#section-1"><span class = "glyphicon glyphicon-home"></span> About Me</a></li>
+						<li><a href="#section-2"><span class = "glyphicon glyphicon-edit"></span> Projects</a></li>
+						<li><a href="#section-3"><span class = "glyphicon glyphicon-inbox"></span> Get in Touch</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<div class = "block" id = "section-1">
+		<div class="jumbotron">
+
+			<div class = "container">
+				<h1>Hello, I'm {Arka}</h1>
+				<p>I am a second year <a href = "http://www.eng.mcmaster.ca/engandmgt/index.html" target="_blank">Software Engineering & Management</a>  student at <b>McMaster University</b> in Canada. I am currently seeking a 4-month summer co-op or internship starting from May 2014. <br><br>I am currently invested in learning web developement. However, I am interested in all sorts of software developement and my favorite language is Python!<br><br>
+				I am a creative and energetic person with a positive outlook. I enjoy group projects where I can share my idea and collabarate with others. I have worked on a few software projects before and I am motivated to enhance my technical skills through further education and experience. <br><br>If you would like to know more about me, click on the button below :) <br></p>
+				<a class = "btn-primary btn-lg" href = "#learnModal" role = "button" data-toggle = "modal">Learn more</a></p>
+
+			</div>
+			<div class= "block" id= "section-2">
+				<br>
+				<h2><strong><span class = "glyphicon glyphicon-edit"></span> Projects</strong></h2>
+
+			<div id="projectCarousel" class="carousel slide">
+			<!-- Indicators -->
+  			<ol class="carousel-indicators">
+			    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+			    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+			    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+  			</ol>
+
+  			<!-- Wrapper for slides -->
+			<div class="carousel-inner">
+				<div class="item active">
+			     	<img src ="images/slide1.png" >
+			     	<div class="carousel-caption">
+				      	<h3>Old Website</h3>
+				        <p>My first project using HTML/CSS.</p>
+			      	</div>
+			    </div>
+				<div class = "item">
+			    	<img src ="images/pic2.png">
+			    	<div class = "carousel-caption">
+			    		<h3>GPA Calculator</h3>
+			    		<p>Stores grades in a textfile, and calculates GPA</p>
+			    	</div>
+			    </div>
+				<div class = "item">
+			    	<img src ="images/pic3.jpeg">
+			    	<div class = "carousel-caption">
+			    		<h3>In the making</h3>
+			    		<p>Something awesome</p>
+			    	</div>
+			    </div>
+			</div>
+
+			 <!-- Controls -->
+			<a class="left carousel-control" href="#projectCarousel" data-slide="prev">
+				<span class="icon-prev"></span>
+			</a>
+			<a class="right carousel-control" href="#projectCarousel" data-slide="next">
+			   	<span class="icon-next"></span>
+			</a>
+
+		</div>
+		</div>
+		The <a href = "https://github.com/arka-g" target = "_blank">source code</a> for all the projects displayed above are hosted at <a class = "social-roll" href = "https://github.com/arka-g" target="_blank"> <img src ="images/github.png"/></a><br>Please contact me using the form below if you would like to work on a project with me
+
+		<div class= "block" id= "section-3">
+		<br><h2><strong><span class = "glyphicon glyphicon-inbox"></span> Get in Touch</strong></h2>
+		<form role="form">
+	  		<div class="form-group">
+	    		<label for="InputEmail1">Email address</label>
+	    		<input type="email" class="form-control" id="InputEmail1" placeholder="Enter email">
+	  		</div>
+	  		<div class="form-group">
+	    		<label for="InputName1">Full Name</label>
+	    		<input type="name" class="form-control" id="InputName1" placeholder="Enter name">
+	  		</div>
+	  		<div class="form-group">
+	    		<label for="InputMessage1">Message</label>
+	    		<textarea type="message" class="form-control" id="InputMessage1" placeholder="Enter Message" rows = "6"></textarea>
+	  		</div>
+
+	  		<!--<button type="submit" class="btn btn-success"><span class = "glyphicon glyphicon-envelope"></span> Submit</button>-->
+		</form>
+			Form still in developement, for any questions email "arkaganguli1@gmail.com"
+		</div>
+		</div>
+
+		<div class = "navbar navbar-default navbar-fixed-bottom">
+			<div class = "container">
+				<p class = "navbar-text pull-left">Site built by Arka Ganguli &copy; 2013</p>
+				<a href = "resume.pdf" target="_blank" class = "navbar-btn btn-danger btn pull-right"><span class = "glyphicon glyphicon-paperclip"></span> View Resume</a>
+			</div>
+		</div>
+
+		<div class="modal fade" id = "learnModal" tabindex = "-1" role = "dialog" aria-labelledby = "myModalLabel" aria-hidden="true">
+    		<div class="modal-dialog">
+      			<div class="modal-content">
+        			<div class="modal-header">
+          				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+          				<h3 class="modal-title">Modal title</h3>
+        			</div>
+        			<div class="modal-body">
+         				Well, where do i start
+
+        				<table class = "table table-striped">
+        					<tbody>
+        						<tr>
+        							<td>Hobbies</td>
+        						</tr>
+        						<tr>
+        							<td>Favorite Tv Shows</td>
+        						</tr>
+        						<tr>
+        							<td>What I'm Working On Now</td>
+        						</tr>        						
+        					</tbody>
+        				</table>
+
+        			</div>
+        			<div class="modal-footer">
+          				<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        			</div>
+      			</div><!-- /.modal-content -->
+    		</div><!-- /.modal-dialog -->
+ 		 </div><!-- /.modal -->
+
+
+		<script src ="js/jquery.js"></script>
+		<script src = "js/bootstrap.min.js"></script>
+		<script src = "js/plugins.js"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.carousel').carousel();
+			});
+		</script>
+		<script>
+			$('#nav').onePageNav({
+				currentClass:'active',
+				changeHash:true,
+				scrollSpeed:750
+			});
+		</script>
+	</body>
+</html>
