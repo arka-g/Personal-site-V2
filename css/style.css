@@ -1,12 +1,25 @@
 /* custom CSS doc 
 By Arka Ganguli */
-#banner{
-	background-color: orange !important;
-	color:black !important;
-	font-size: 12px !important;
-	padding:8px 0 !important;
+#head{
+	font-family: 'Oregano', cursive !important;
+	margin-bottom: 25px !important;
 }
+#logo{
+	font-family: 'Black Ops One', cursive !important;
+	text-shadow: 2px 2px 2px #aaa;
+}
+#menu{
+	font-family: 'Raleway', cursive !important;
+	font-size: 14px;
+}
+
+#proj{
+	padding:1px;
+   	border:1px solid #021a40;
+}
+
 body {
+	font-family: 'Raleway', sans-serif;
   	margin: 0 20% !important;
   	/* bg from www.colorzilla.com*/
   	background: rgb(179,220,237) !important; /* Old browsers */
@@ -25,18 +38,23 @@ body {
 	font-weight: bold !important;
 }
 
-.navbar-text{
-	font-size: 15px;
+#bottom{
+	font-size: 15px !important;
+	font-family: 'Oregano', cursive !important;
 }
-
+#text{
+	font-size: 20px !important;
+}
 .carousel{
-	margin-top: 25px;
-	margin-bottom: 10px;
+	margin-top: 25px !important;
+	margin-bottom: 10px !important;
 }
 
 .jumbotron h1{
 	margin-bottom: 20px !important;
+	font-size: 50px !important;
 }
+
 /* method from www.bradsknutson.com, modified by Arka Ganguli(me)
 
 .social-roll {
