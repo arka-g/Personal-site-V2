@@ -33,6 +33,41 @@ body {
 	ent( startColorstr='#b4e391', endColorstr='#b4e391',GradientType=0 ); /* IE6-9 */
 }
 
+@media (max-width: 768px) {
+  body {
+    margin: 0 !important;
+  }
+}
+@media (max-width: 500px) {
+  body {
+    margin: 0 !important;
+  }
+  #logo{
+  	font-size: 25px !important;
+  }
+  p {
+  	font-size: 15px !important;
+  }
+  #menu{
+  	font-size: 13px !important;
+  }
+  #head{
+  	font-size: 30px !important;
+  }
+}
+
+@media (max-width: 320px) {
+  body {
+    margin: 0 !important;
+  }
+  #logo{
+  	font-size: 20px !important;
+  }
+  #menu{
+  	font-size: 10px !important;
+  }
+}
+
 .navbar-brand{
 	font-size: 35px !important;
 	font-weight: bold !important;
@@ -54,26 +89,3 @@ body {
 	margin-bottom: 20px !important;
 	font-size: 50px !important;
 }
-
-/* method from www.bradsknutson.com, modified by Arka Ganguli(me)
-
-.social-roll {
-	background-image: url('github.png');
-	float:right;
-	margin-right: 67%;
-	border-radius: 50%;
-	-webkit-transition: all ease 0.5s;
-	-moz-transition: all ease 0.5s;
-	-o-transition: all ease 0.5s;
-	-ms-transition: all ease 0.5s;
-	transition: all ease 0.5s;
-}
-.social-roll:hover {
-	background-image: url('github.png');
-	box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.8);
-	-webkit-transform:rotate(360deg);
-	-moz-transform:rotate(360deg);
-	-o-transform:rotate(360deg);
-	-ms-transform:rotate(360deg);
-	transform:rotate(360deg);
-} */
