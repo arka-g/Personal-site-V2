@@ -15,7 +15,7 @@ By Arka Ganguli */
 
 #proj{
 	padding:1px;
-   	border:1px solid #021a40;
+  border:1px solid #021a40;
 }
 
 body {
@@ -35,12 +35,15 @@ body {
 
 @media (max-width: 768px) {
   body {
-    margin: 0 !important;
+    margin: 15px 0px 0px 0px!important;
+  }
+  .img{
+    width: 100% !important;
   }
 }
 @media (max-width: 500px) {
   body {
-    margin: 0 !important;
+    margin: 15px 0px 0px 0px!important;
   }
   #logo{
   	font-size: 25px !important;
@@ -67,6 +70,7 @@ body {
   	font-size: 10px !important;
   }
 }
+
 
 .navbar-brand{
 	font-size: 35px !important;
