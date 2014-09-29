@@ -81,7 +81,8 @@ video{
 }
 .intro-video .text {
     min-height: 600px;
-    top:50px;
+    top:25%;
+    left:10%;
     text-align: center;
 }
 .intro-video .text h1{
@@ -186,6 +187,11 @@ video{
 
 .middle .fa-6 {
 font-size: 12em;
+}
+
+.middle .fa-6:hover {
+    color:#E74C3C;
+
 }
 
 i{
