@@ -1,0 +1,95 @@
+/* custom CSS doc 
+By Arka Ganguli */
+#head{
+	font-family: 'Oregano', cursive !important;
+	margin-bottom: 25px !important;
+}
+#logo{
+	font-family: 'Black Ops One', cursive !important;
+	text-shadow: 2px 2px 2px #aaa;
+}
+#menu{
+	font-family: 'Raleway', cursive !important;
+	font-size: 14px;
+}
+
+#proj{
+	padding:1px;
+  border:1px solid #021a40;
+}
+
+body {
+	font-family: 'Raleway', sans-serif;
+  margin: 0 20% !important;
+  /* bg from www.colorzilla.com*/
+  background: rgb(179,220,237) !important; /* Old browsers */
+	background: -moz-linear-gradient(left,  rgba(179,220,237,1) 0%, rgba(41,184,229,1) 50%, rgba(188,224,238,1) 100%) !important; /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(179,220,237,1)), color-stop(50%,rgba(41,184,229,1)), color-stop(100%,rgba(188,224,238,1))) !important; /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(left,  rgba(179,220,237,1) 0%,rgba(41,184,229,1) 50%,rgba(188,224,238,1) 100%) !important; /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(left,  rgba(179,220,237,1) 0%,rgba(41,184,229,1) 50%,rgba(188,224,238,1) 100%) !important; /* Opera 11.10+ */
+	background: -ms-linear-gradient(left,  rgba(179,220,237,1) 0%,rgba(41,184,229,1) 50%,rgba(188,224,238,1) 100%) !important; /* IE10+ */
+	background: linear-gradient(to right,  rgba(179,220,237,1) 0%,rgba(41,184,229,1) 50%,rgba(188,224,238,1) 100%) !important; /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b3dced', endColorstr='#bce0ee',GradientType=1 ) !important; /* IE6-9 */
+	ent( startColorstr='#b4e391', endColorstr='#b4e391',GradientType=0 ); /* IE6-9 */
+}
+
+@media (max-width: 768px) {
+  body {
+    margin: 15px 0px 0px 0px!important;
+  }
+  .img{
+    width: 100% !important;
+  }
+}
+@media (max-width: 500px) {
+  body {
+    margin: 15px 0px 0px 0px!important;
+  }
+  #logo{
+  	font-size: 25px !important;
+  }
+  p {
+  	font-size: 15px !important;
+  }
+  #menu{
+  	font-size: 13px !important;
+  }
+  #head{
+  	font-size: 30px !important;
+  }
+}
+
+@media (max-width: 320px) {
+  body {
+    margin: 0 !important;
+  }
+  #logo{
+  	font-size: 20px !important;
+  }
+  #menu{
+  	font-size: 10px !important;
+  }
+}
+
+
+.navbar-brand{
+	font-size: 35px !important;
+	font-weight: bold !important;
+}
+
+#bottom{
+	font-size: 15px !important;
+	font-family: 'Oregano', cursive !important;
+}
+#text{
+	font-size: 20px !important;
+}
+.carousel{
+	margin-top: 25px !important;
+	margin-bottom: 10px !important;
+}
+
+.jumbotron h1{
+	margin-bottom: 20px !important;
+	font-size: 50px !important;
+}

@@ -1,95 +1,227 @@
 /* custom CSS doc 
 By Arka Ganguli */
-#head{
-	font-family: 'Oregano', cursive !important;
-	margin-bottom: 25px !important;
+
+@font-face {
+  font-family: 'Exo 2';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Exo 2 Medium'), local('Exo2-Medium'), url(http://themes.googleusercontent.com/static/fonts/exo2/v1/SJSKlaAoPzG8E6EMHXZfenYhjbSpvc47ee6xR_80Hnw.woff) format('woff');
 }
+
+html{
+    margin:0;
+    padding:0;
+    height:100%;
+    width:100%;
+    position: relative;
+    font-family: "Exo 2",Helvetica,Arial,sans-serif;
+}
+
+body{
+    margin:0;
+    padding:0;
+    height:100%;
+    width:100%;
+    position: relative;
+    font-family: "Exo 2",Helvetica,Arial,sans-serif;
+}
+
+a:hover{
+    color:#CCC;
+    text-decoration: none;
+}
+
+a{
+    color:inherit;
+    text-decoration: none;
+
+}
+
+.container{
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.navbar{
+    background-color: #fff !important;
+    opacity: 0.70;
+}
+
+.navbar:hover{
+    opacity: 0.98;
+
+}
+
+/**NEW STUFF**/
+.row{
+    margin-left:0px !important;
+    margin-right: 0px !important;
+}
+
+.intro-video {
+    position:relative;
+    z-index: 0;
+    overflow: hidden;
+    margin-bottom: -5px !important;
+    padding-bottom: 0px !important;
+}
+
+video{
+    height:100%;
+    width:100%;
+    margin:0;
+    padding:0;
+}
+
+.text{
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:1;
+}
+.intro-video .text {
+    min-height: 600px;
+    top:50px;
+    text-align: center;
+}
+.intro-video .text h1{
+    font-weight: 500;
+    font-size: 60px;
+    color:#333333;
+}
+.intro-video .text p {
+    font-weight: 500;
+    font-size: 22px;
+    padding-left: 5px;
+    color:#333333;
+}
+
+.middle {
+    font-family: 'Exo 2';
+    background-color: #9E9E9E;
+}
+
+#third{
+    background-color: #FFF;
+}
+
+.middle {
+    background-color: #E5E5E5;
+    min-height: 300px;
+    padding-bottom: 20px;
+}
+.bottom {
+    font-family: 'Exo 2';
+    background-color: #474747;
+    text-align: center;
+    min-height: 150px;
+}
+
+.bottom h2{
+    color:#FFF;
+}
+
+.container{
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.middle {
+    font-weight:300;
+}
+
+.middle h2{
+    text-align: center;
+    font-weight: 500;
+}
+
+.middle h1{
+    text-align: center;
+    font-weight: 500;
+}
+.middle h3{
+    font-size: 25px;
+    text-align: center;
+    font-weight: 300;
+}
+
+.middle p{
+    font-size: 20px;
+    text-align: center;
+    font-weight: 300;
+    color: #787878;
+}
+
+#icons{
+    color:#FFF;
+}
+
+#space{
+    margin-right: 10px;
+    margin-left:10px;
+}
+.middle .fa-6{
+    font-size: 20em;
+}
+
+.middle .col-md-12{
+    text-align: center;
+}
+
 #logo{
-	font-family: 'Black Ops One', cursive !important;
-	text-shadow: 2px 2px 2px #aaa;
+    font-family: 'Black Ops One', cursive !important;
+    text-shadow: 2px 2px 2px #aaa;
+    font-size: 40px;
+    color:#E74C3C;
 }
 #menu{
-	font-family: 'Raleway', cursive !important;
-	font-size: 14px;
+    font-family: 'Exo 2' !important;
+    font-size: 14px;
+    color:#E74C3C;
 }
 
-#proj{
-	padding:1px;
-  border:1px solid #021a40;
+.banner{
+    margin-top: 50px;
 }
 
-body {
-	font-family: 'Raleway', sans-serif;
-  margin: 0 20% !important;
-  /* bg from www.colorzilla.com*/
-  background: rgb(179,220,237) !important; /* Old browsers */
-	background: -moz-linear-gradient(left,  rgba(179,220,237,1) 0%, rgba(41,184,229,1) 50%, rgba(188,224,238,1) 100%) !important; /* FF3.6+ */
-	background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(179,220,237,1)), color-stop(50%,rgba(41,184,229,1)), color-stop(100%,rgba(188,224,238,1))) !important; /* Chrome,Safari4+ */
-	background: -webkit-linear-gradient(left,  rgba(179,220,237,1) 0%,rgba(41,184,229,1) 50%,rgba(188,224,238,1) 100%) !important; /* Chrome10+,Safari5.1+ */
-	background: -o-linear-gradient(left,  rgba(179,220,237,1) 0%,rgba(41,184,229,1) 50%,rgba(188,224,238,1) 100%) !important; /* Opera 11.10+ */
-	background: -ms-linear-gradient(left,  rgba(179,220,237,1) 0%,rgba(41,184,229,1) 50%,rgba(188,224,238,1) 100%) !important; /* IE10+ */
-	background: linear-gradient(to right,  rgba(179,220,237,1) 0%,rgba(41,184,229,1) 50%,rgba(188,224,238,1) 100%) !important; /* W3C */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b3dced', endColorstr='#bce0ee',GradientType=1 ) !important; /* IE6-9 */
-	ent( startColorstr='#b4e391', endColorstr='#b4e391',GradientType=0 ); /* IE6-9 */
+i{
+    color:#E74C3C;
 }
 
-@media (max-width: 768px) {
-  body {
-    margin: 15px 0px 0px 0px!important;
-  }
-  .img{
-    width: 100% !important;
+i:hover{
+    color:#CCC;
+}
+
+.middle img{
+    border: 1px solid #021a40;
+}
+/*.middle .container .md-9-content .md-6-content{
+    float:right;
+}*/
+
+/* Basic Media Queries */
+@media (max-width: 530px) {
+  #nav-banner h2 {
+    font-size:25px;
   }
 }
-@media (max-width: 500px) {
-  body {
-    margin: 15px 0px 0px 0px!important;
+
+@media (max-width: 460px) {
+  #nav-banner h2 {
+    font-size:25px;
   }
-  #logo{
-  	font-size: 25px !important;
-  }
-  p {
-  	font-size: 15px !important;
-  }
-  #menu{
-  	font-size: 13px !important;
-  }
-  #head{
-  	font-size: 30px !important;
+  #nav-banner img{
+    height:0;
+    width:0;
   }
 }
 
 @media (max-width: 320px) {
-  body {
-    margin: 0 !important;
+  #nav-banner h2 {
+    font-size:20px;
   }
-  #logo{
-  	font-size: 20px !important;
+  #nav-banner img{
+    height:0;
+    width:0;
   }
-  #menu{
-  	font-size: 10px !important;
-  }
-}
-
-
-.navbar-brand{
-	font-size: 35px !important;
-	font-weight: bold !important;
-}
-
-#bottom{
-	font-size: 15px !important;
-	font-family: 'Oregano', cursive !important;
-}
-#text{
-	font-size: 20px !important;
-}
-.carousel{
-	margin-top: 25px !important;
-	margin-bottom: 10px !important;
-}
-
-.jumbotron h1{
-	margin-bottom: 20px !important;
-	font-size: 50px !important;
 }
